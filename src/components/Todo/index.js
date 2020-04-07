@@ -8,7 +8,7 @@ const Todo = ({ todos, deleteTodo }) => {
       )
     })
   ) : (
-    <p className="center">You have no todo's left, yay!</p>
+    <p className="center">Você não tem tudos..</p>
   )
 
   return(
