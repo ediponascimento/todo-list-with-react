@@ -8,9 +8,9 @@ class App extends Component {
   
   state = {
     todos: [
-      { id: 1, content: 'Buy some milk' },
-      { id: 2, content: 'Play mario kart' },
-      { id: 3, content: 'Larn Kotlin and create some App' }
+      { id: 1, content: 'Assitir a LiveCoding do Marco' },
+      { id: 2, content: 'estudar React' },
+      { id: 3, content: 'Estudar Nodejs' }
     ]
   }
   
@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="todo-app container">
         <h1 className="center blue-text">Todo's</h1>
-        <Todo  deleteTodo={this.deleteTodo} todos={this.state.todos} />
+        <Todo  deleteTodo={this.deleteTodo} todos={this.state.todos}/>
         <AddTodo addTodo={this.addTodo} />
       </div>
     );
